@@ -1,74 +1,71 @@
-Email Spam Detector
+# 📧 Email Spam Detector
 
-Overview
+A simple machine learning project to classify emails as spam or not spam.
 
-This project is a Machine Learning-based Email Spam Detector that classifies emails as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques and a supervised learning model.
+## 🔍 Overview
 
-Features
+This project uses machine learning techniques to detect spam emails. It's my first ML project, built with Python and various libraries.
 
-Preprocessing of email text (removal of stop words, punctuation, tokenization, etc.)
+## 🛠️ Technologies Used
 
-Feature extraction using TF-IDF or Count Vectorizer
+- Python 3.9+
+- Jupyter Notebook
+- Scikit-learn
+- Pandas
+- NumPy
+- NLTK
+- Matplotlib
 
-Training using a Machine Learning model (Naive Bayes, SVM, or Random Forest)
+## 🚀 Getting Started
 
-Evaluation using accuracy, precision, recall, and F1-score
+### Prerequisites
 
-User-friendly script for classifying new emails
-
-
-Technologies Used
-
-Python
-
-Scikit-Learn
-
-Pandas
-
-Numpy
-
-NLTK
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
-
-
-Installation
-
-# Clone the repository
-git clone https://github.com/your-username/email-spam-detector.git
-cd email-spam-detector
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-# Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Usage
+### Running the Project
 
-# Run the training script
-python train.py
+1. Clone this repository
+2. Navigate to the project directory
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Open `spam_detector.ipynb`
 
-# Run the classification script
-python predict.py "Your email text here"
+## 📊 Project Structure
 
-Dataset
+- `data/` - Contains email dataset
+- `spam_detector.ipynb` - Main notebook with code and explanations
+- `model/` - Saved trained model
+- `requirements.txt` - Required packages
 
-The dataset used for training consists of labeled email samples (Spam and Ham). You can use:
+## ✨ Features
 
-SMS Spam Collection Dataset
+- Text preprocessing and cleaning
+- Feature extraction using TF-IDF
+- Training multiple classifiers (Naive Bayes, SVM, etc.)
+- Model evaluation and comparison
+- Visualization of results
 
-Your own dataset of labeled emails
+## 📝 Results
 
+The model achieves 97% accuracy on the test set. See the notebook for detailed metrics and visualizations.
 
-Contributing
+## 🔮 Future Improvements
 
-Feel free to fork this repository, open an issue, or submit a pull request if you'd like to contribute!
+- Try more advanced NLP techniques
+- Add a simple web interface
+- Improve feature engineering
+- Handle imbalanced datasets better
 
-License
+## 📚 Learning Resources
 
-This project is licensed under the MIT License.
+Resources that helped me during this project:
+- [Scikit-learn Documentation](https://scikit-learn.org/)
+- [Text Classification with NLTK](https://www.nltk.org/)
 
+## 📄 License
+
+MIT
