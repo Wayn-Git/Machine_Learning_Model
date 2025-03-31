@@ -1,10 +1,10 @@
-# 📧 Email Spam Detector
+# 📧 Email Spam Detector (In Development)
 
 A simple machine learning project to classify emails as spam or not spam.
 
 ## 🔍 Overview
 
-This project uses machine learning techniques to detect spam emails. It's my first ML project, built with Python and various libraries.
+This project uses machine learning techniques to detect spam emails. It's my first ML project, built with Python and various libraries. Currently in active development.
 
 ## 🛠️ Technologies Used
 
@@ -49,11 +49,11 @@ pip install -r requirements.txt
 - Model evaluation and comparison
 - Visualization of results
 
-## 📝 Results
+## 🚧 Work in Progress
 
-The model achieves 97% accuracy on the test set. See the notebook for detailed metrics and visualizations.
+This project is currently under development. Features and documentation will be updated regularly.
 
-## 🔮 Future Improvements
+## 🔮 Planned Improvements
 
 - Try more advanced NLP techniques
 - Add a simple web interface
@@ -62,7 +62,7 @@ The model achieves 97% accuracy on the test set. See the notebook for detailed m
 
 ## 📚 Learning Resources
 
-Resources that helped me during this project:
+Resources that are helping me during this project:
 - [Scikit-learn Documentation](https://scikit-learn.org/)
 - [Text Classification with NLTK](https://www.nltk.org/)
 
